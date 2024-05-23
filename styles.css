@@ -83,3 +83,30 @@ fieldset input:hover {
   border-radius: 40px;
   padding: 1rem;
 }
+
+.component-container-end {
+  display: none;
+  flex-direction: column;
+  background-color: hsl(213, 19%, 18%);
+  padding: 1rem;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.endingimage {
+  width: 60%;
+  margin-left: 20%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.endingrating {
+  font-size: 1rem;
+  background-color: hsl(217, 16%, 32%);
+  width: 60%;
+  margin-left: 20%;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+}

@@ -13,7 +13,7 @@
 <body>
 
   <!-- Rating state start -->
-  <div class="component-container-start">
+  <div class="component-container-start" style="display: flex">
 
     <legend>
       <img src="/images/icon-star.svg" alt="star-image">
@@ -31,33 +31,34 @@
           <input class="input" type="button" name="rating" value="1">
           <input class="input" type="button" name="rating" value="2">
           <input class="input" type="button" name="rating" value="3">
-          <input class="input"type="button" name="rating" value="4">
+          <input class="input" type="button" name="rating" value="4">
           <input class="input" type="button" name="rating" value="5">
         </fieldset>
       </form>
 
     </div>
 
-    <button class="submit">Submit</button>
+    <button id="submit" class="submit">Submit</button>
 
   </div>
 
+  <div class="component-container-end" style="display: none">
+    <img class="endingimage" src="/images/illustration-thank-you.svg" alt="thank you">
+  
+    <h2 class="endingrating">You selected _ out of 5</h2>
 
-  <!--
+    
+    <h1 class="endingthankyou">Thank you!</h1>
+    <p class="endinginfo">
+      We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!
+    </p>
 
-     Rating state end
+  </div>
+
   
-    Thank you state start
-  
-    You selected Add rating here out of 5
-  
-    Thank you!
-  
-    We appreciate you taking the time to give a rating. If you ever need more support, 
-    don’t hesitate to get in touch!
-  
-    Thank you state end
-  -->
+
+
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

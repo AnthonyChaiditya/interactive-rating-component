@@ -12,6 +12,7 @@ body {
   margin-left: 35%;
   margin-top: 8rem;
   background-color: hsl(216, 12%, 8%);
+  font-family: 'Overpass';
 }
 
 .component-container-start {
@@ -103,10 +104,10 @@ fieldset input:hover {
 
 .endingrating {
   font-size: 1rem;
-  background-color: hsl(217, 16%, 32%);
+  background-color: hsl(217, 16%, 60%);
   width: 60%;
   margin-left: 20%;
-  padding: .5rem;
+  padding: 1rem;
   margin-bottom: 1rem;
   border-radius: 20px;
 }

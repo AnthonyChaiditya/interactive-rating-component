@@ -1,11 +1,13 @@
 // select the rating buttons from the DOM
 const ratingButtons = document.querySelectorAll('input');
+let rating;
 
 ratingButtons.forEach((button, index) => {
   button.addEventListener('click', () => {
     // turn the background color of the button white
     removeActiveClasses();
     button.classList.add('active');
+    rating = button.value;
   })
 })
 
@@ -40,7 +42,16 @@ submitButton.addEventListener('click', () => {
   // invoke the thank you display
   turnInitialDisplayOff();
   turnThankYouDisplayOn();
+  setRating();
 })
+
+let selectedUserRatingSentence = document.getElementsByClassName('endingrating');
+
+// console.log(selectedUserRatingSentence[0].outerText);
+
+function setRating() {
+  selectedUserRatingSentence[0].outerText = `You Selected ${rating} out of 5`;
+}
 
 
 

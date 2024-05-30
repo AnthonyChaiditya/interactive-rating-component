@@ -111,3 +111,12 @@ fieldset input:hover {
   margin-bottom: 1rem;
   border-radius: 20px;
 }
+
+.endingthankyou {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.endinginfo {
+  margin-top: 1rem;
+}
